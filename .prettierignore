@@ -1,0 +1,19 @@
+# NOTE: In general this should be kept in sync with .eslintignore
+
+packages/**/dist/*.js
+packages/**/build/*.js
+packages/**/build/**/*.js
+packages/**/build/*.css
+packages/**/build/**/*.css
+packages/**/npm/**/*
+packages/**/config/*.js
+packages/playwright
+packages/playwright-core
+packages/**/vite.config.js
+packages/**/vite.prod.config.js
+**/*.md
+**/*.js.flow
+**/node_modules
+flow-typed
+.github/CODEOWNERS
+.prettierignore
